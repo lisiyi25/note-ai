@@ -1,0 +1,40 @@
+$primary: #1677ff;
+$primary-dark: #0958d9;
+$primary-light: #69b1ff;
+$bg-sidebar: #1a1b26;
+$bg-dark: #1a1b26;
+$bg-page: #f7f9fc;
+$text-primary: #1f2329;
+$text-regular: #646a73;
+$text-secondary: #8f959e;
+$border-color: #ebeef5;
+$card-radius: 16px;
+$card-shadow: 0 8px 24px rgba(149, 157, 165, 0.1);
+$card-shadow-hover: 0 16px 36px rgba(149, 157, 165, 0.22);
+$transition: 0.25s ease;
+
+:root {
+  --color-primary: #{$primary};
+  --color-primary-dark: #{$primary-dark};
+  --color-primary-light: #{$primary-light};
+  --color-bg-sidebar: #{$bg-sidebar};
+  --color-bg-dark: #{$bg-dark};
+  --color-bg-page: #{$bg-page};
+  --color-text-primary: #{$text-primary};
+  --color-text-regular: #{$text-regular};
+  --color-text-secondary: #{$text-secondary};
+  --color-border: #{$border-color};
+  --card-radius: #{$card-radius};
+  --card-shadow: #{$card-shadow};
+  --card-shadow-hover: #{$card-shadow-hover};
+  --transition: #{$transition};
+
+  --el-color-primary: #{$primary};
+  --el-color-primary-light-3: #69b1ff;
+  --el-color-primary-light-5: #91caff;
+  --el-color-primary-light-7: #bae0ff;
+  --el-color-primary-light-8: #d6eaff;
+  --el-color-primary-light-9: #e6f4ff;
+  --el-color-primary-dark-2: #{$primary-dark};
+  --el-border-radius-base: 8px;
+}
